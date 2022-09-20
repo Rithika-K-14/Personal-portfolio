@@ -1,0 +1,31 @@
+.background-color-layer{background-size:cover;opacity: 1;background-repeat:no-repeat;
+    position:absolute;z-index:-1;top:0;width:100%;left:0;right:0;bottom:10%;
+    background-color:#000000 }
+.content-wrapper{position:relative;z-index:1}.section-container{padding:60px 0 40px}
+.text-center{text-align:center} 
+.heading{
+    margin-bottom: -10px;
+    font-family: 'Lucida Sans';
+    font-size: 100px;
+    color: #f5f0ee;
+  }
+  .fa-icon{color:#000;width:32px;height:32px;display:inline-block;line-height:29px;font-size:15px;text-align:center}
+  * {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #72e7bc;} /* Green */
+.css {width: 80%; background-color: #80c0f4;} /* Blue */
+.js {width: 65%; background-color: #d75e55;} /* Red */
+.php {width: 60%; background-color: #baeb7e;} /* Dark Grey */
